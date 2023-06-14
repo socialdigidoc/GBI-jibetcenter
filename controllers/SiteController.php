@@ -401,6 +401,29 @@ class SiteController extends Controller
        $this->layout='guest';
        return $this->render('guest/jibet-center');
     }
+
+    public function actionPartner()
+    {
+       $this->layout='guest';
+       return $this->render('guest/partner');
+    }
+
+    public function actionExp()
+    {
+       $this->layout='guest';
+       return $this->render('guest/exp');
+    }
     
+    public function actionCreative()
+    {
+       $this->layout='guest';
+       return $this->render('guest/creative');
+    }
+
+    public function actionHome()
+    {
+       $this->layout='guest';
+       return $this->render('guest/home');
+    }
     
 }

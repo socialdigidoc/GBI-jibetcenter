@@ -57,16 +57,16 @@ use yii\helpers\Url;
                             <nav id="navigation" class="navigation d-none d-lg-inline-block">
                                 <ul>
                                     <li class="current-menu-item">
-                                        <a href="<?= Yii::$app->homeUrl?>">Home</a>
+                                        <a href="<?= Yii::$app->homeUrl?>">HOME</a>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">About Jibet Center</a>
+                                        <a href="#">ABOUT JIBET CENTER</a>
                                         <ul>
                                             <li>
-                                                <a href="<?= Url::to(['site/jibet-center'])?>">Jibet Center</a>
+                                                <a href="<?= Url::to(['site/jibet-center'])?>">JIBET CENTER</a>
                                             </li>
                                             <li>
-                                                <a href="#">PARTNER</a>
+                                                <a href="<?= Url::to(['site/partner'])?>">PARTNER</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -74,13 +74,13 @@ use yii\helpers\Url;
                                         <a href="#">PROGRAM</a>
                                         <ul>
                                             <li>
-                                                <a href="#">EXPERIENCE PROGRAM</a>
+                                                <a href="<?= Url::to(['site/exp'])?>#">EXPERIENCE PROGRAM</a>
                                             </li>
                                             <li>
-                                                <a href="#">CREATIVE PROGRAM</a>
+                                                <a href="<?= Url::to(['site/creative'])?>">CREATIVE PROGRAM</a>
                                             </li>
                                             <li>
-                                                <a href="#">HOME PROGRAM</a>
+                                                <a href="<?= Url::to(['site/home'])?>">HOME PROGRAM</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -137,10 +137,10 @@ use yii\helpers\Url;
                                 <h5 class="widget-title">Quick LInks</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">About us</a>
+                                        <a href="<?= Url::to(['site/jibet-center'])?>">About us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Program</a>
+                                        <a href="<?= Url::to(['site/exp'])?>">Program</a>
                                     </li>
                                 </ul>
                             </aside>
@@ -150,13 +150,13 @@ use yii\helpers\Url;
                                 <h5 class="widget-title">Support</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">Help Center</a>
+                                        <a href="#">Faq</a>
                                     </li>
                                     <li>
                                         <a href="#">Contact Us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Partner</a>
+                                        <a href="<?= Url::to(['site/partner'])?>">Partner</a>
                                     </li>
                                 </ul>
                             </aside>
